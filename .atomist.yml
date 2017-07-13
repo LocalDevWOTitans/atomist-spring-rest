@@ -1,0 +1,17 @@
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170701090350"
+generator:
+  name: "NewSpringBootRestService"
+  group: "atomist"
+  artifact: "spring-rugs"
+  version: "0.13.3"
+  parameters:
+    - "artifactId": "spring-rest"
+    - "groupId": "se.localdev"
+    - "version": "0.1.0-SNAPSHOT"
+    - "description": "my new project"
+    - "rootPackage": "com.sectra"
+    - "serviceClassName": "Test"
+
